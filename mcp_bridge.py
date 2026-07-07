@@ -42,7 +42,7 @@ def print_help():
     print("Usage: ai [OPTIONS] \"prompt\"")
     print()
     print("Options:")
-    print("  -h, --help     Prikaži ovu pomoć")
+    print("  -h, --help     Show this help")
     print()
     print("Examples:")
     print("  ai \"what is python?\"")
