@@ -89,7 +89,7 @@ def main():
             full_prompt = user_args
 
         if full_prompt.strip():
-            print(f"\n[DeepSeek]: Thinking...\n")
+            print(f"\n[AI]: Thinking...\n")
             reply = call_openrouter(full_prompt)
             print(reply)
             sys.exit(0)
