@@ -94,20 +94,6 @@ def main():
             print(reply)
             sys.exit(0)
 
-    for line in sys.stdin:
-        try:
-            req = json.loads(line)
-            if req.get("method") == "prompt" or "prompt" in req.get("params", {}):
-                user_prompt = req["params"].get("prompt", "Hello")
-                ai_response = call_openrouter(user_prompt)
-                response = {"jsonrpc": "2.0", "id": req.get("id"), "result": {"content": ai_response}}
-            else:
-                response = {"jsonrpc": "2.0", "id": req.get("id"), "result": {"status": "ready"}}
-            sys.stdout.write(json.dumps(response) + "\n")
-            sys.stdout.flush()
-        except Exception:
-            pass
-
 
 if __name__ == "__main__":
     main()
