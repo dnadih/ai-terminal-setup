@@ -5,6 +5,9 @@ import urllib.request
 
 API_KEY = os.environ.get("OPENROUTER_API_KEY")
 MODEL = "cohere/north-mini-code:free"
+# nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+# nvidia/nemotron-3-super-120b-a12b:free
+# nvidia/nemotron-3-nano-30b-a3b:free
 
 
 def _system_context() -> str:
