@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI Terminal Bridge (mini)
 
 AI in your terminal — a Python script that communicates with the OpenRouter API. Zero dependencies (stdlib only).
@@ -53,3 +54,7 @@ ai -h                            # help
 The script automatically adds OS and shell info to the system prompt:
 - **OS:** detected via `os.name` (Windows / Linux/Mac)
 - **Shell:** set via `AI_SHELL` env variable (automatically from `ai.bat` or PS profile)
+=======
+# ai-terminal-setup
+AI in your terminal — a Python script that communicates with the OpenRouter API. Zero dependencies (stdlib only)
+>>>>>>> fb3b36781b9f01291967f1a11d1973eec8406280
