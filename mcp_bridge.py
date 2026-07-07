@@ -69,7 +69,7 @@ def main():
             print()
             sys.exit(0)
         if paste_content:
-            print(f"\n[DeepSeek]: Thinking...\n")
+            print(f"\n[AI]: Thinking...\n")
             reply = call_openrouter(paste_content)
             print(reply)
         sys.exit(0)
