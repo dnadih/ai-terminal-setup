@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# AI Terminal Bridge (mini)
+# ai-terminal-setup
 
 AI in your terminal — a Python script that communicates with the OpenRouter API. Zero dependencies (stdlib only).
 
@@ -15,7 +14,7 @@ python -m venv venv
 
 ### 2. Save the script
 
-Copy `mcp_bridge_mini.py` to `%USERPROFILE%\.terminal-mcp\mcp_bridge.py`.
+Copy `mcp_bridge.py` (from this repo) to `%USERPROFILE%\.terminal-mcp\mcp_bridge.py`.
 
 ### 3. Set API key
 
@@ -54,7 +53,3 @@ ai -h                            # help
 The script automatically adds OS and shell info to the system prompt:
 - **OS:** detected via `os.name` (Windows / Linux/Mac)
 - **Shell:** set via `AI_SHELL` env variable (automatically from `ai.bat` or PS profile)
-=======
-# ai-terminal-setup
-AI in your terminal — a Python script that communicates with the OpenRouter API. Zero dependencies (stdlib only)
->>>>>>> fb3b36781b9f01291967f1a11d1973eec8406280
