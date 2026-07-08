@@ -48,6 +48,7 @@ ai "what is python?"            # direct query
 dir | ai "explain this output"  # pipe mode
 ai                               # paste mode (Ctrl+Z to finish)
 ai -h                            # help
+ai -m                            # change the LLM model (change is peristant)
 ```
 
 The script automatically adds OS and shell info to the system prompt:
