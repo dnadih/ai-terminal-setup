@@ -1,6 +1,6 @@
 # ai-terminal-setup
 
-AI in your terminal — a Python script that communicates with the OpenRouter API. Zero dependencies (stdlib only).
+AI in your terminal - a Python script that communicates with the OpenRouter API. Zero dependencies (stdlib only).
 
 ## 🤨 Name Origins
 You may have noticed the script is called `mcp_bridge.py`. Yes, "MCP" as in **Model Context Protocol**, the fancy Anthropic standard for letting LLMs interact with tools and servers.
