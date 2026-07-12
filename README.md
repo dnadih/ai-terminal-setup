@@ -2,6 +2,17 @@
 
 AI in your terminal — a Python script that communicates with the OpenRouter API. Zero dependencies (stdlib only).
 
+## 🤨 Name Origins
+You may have noticed the script is called `mcp_bridge.py`. Yes, "MCP" as in **Model Context Protocol** — the fancy Anthropic standard for letting LLMs interact with tools and servers.
+
+This script does **none of that**. It's literally `urllib.request` → OpenRouter → print. No protocol, no tools, no server, no ceremony.
+
+**The backstory:** I originally planned to build a proper LLM harness — maybe something like a Codex bridge, maybe a real MCP server that could list files, run commands, and fetch context. Then I looked at the actual use case ("explain this error", "what does this command do") and realized I was designing a space station to boil an egg.
+
+So I threw out the harness, kept the name, and called it a day. `mcp_bridge.py` is now a **monument to abandoned ambition** — a reminder that sometimes the best architecture is the one you don't build. It's the software equivalent of naming your cat "Panther" because you *planned* to get a panther but ended up with a stray tabby that refuses to hunt mice.
+
+Works great though. 🚀
+
 ## Installation
 
 ### 1. Create virtual environment
